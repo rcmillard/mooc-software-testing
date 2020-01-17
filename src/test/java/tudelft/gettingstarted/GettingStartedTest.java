@@ -19,4 +19,10 @@ public class GettingStartedTest {
         Assertions.assertEquals(5, result);
     }
 
+    @Test
+    public void addFiveToMinus20() {
+        int result = new GettingStarted().addFive(-20);
+        Assertions.assertEquals(-15,result);
+    }
+
 }
